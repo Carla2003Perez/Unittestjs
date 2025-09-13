@@ -1,15 +1,15 @@
-/* Contenedor principal centrado */
+/* principal*/
 body, html {
   height: 100%;
   margin: 0;
-  background: #137e80; /* fondo general oscuro */
+  background: #137e80; 
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Arial', sans-serif;
 }
 
-/* Contenedor del formulario */
+/* formulario */
 .form-evaluar {
   width: 100%;
   max-width: 550px;
@@ -20,7 +20,7 @@ body, html {
   color: #fff;
 }
 
-/* Títulos y labels */
+/* Títulos  */
 .form-evaluar label {
   font-weight: 600;
   margin-bottom: 5px;

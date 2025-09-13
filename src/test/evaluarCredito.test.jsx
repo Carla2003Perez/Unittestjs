@@ -28,7 +28,7 @@ describe('evaluarCredito', () => {
     expect(evaluarCredito(solicitud)).toBe('No aprobado');
   });
 
-  // Pruebas para reglas base: ingresosVerificados y dti
+ 
   test('devuelve "No aprobado" si los ingresos no están verificados y no es estudiante con garante', () => {
     const solicitud = {
       score: 700,
@@ -81,7 +81,7 @@ describe('evaluarCredito', () => {
     expect(evaluarCredito(solicitud)).toBe('Aprobado');
   });
 
-  // Pruebas para condiciones específicas de perfil: estudiante
+ 
   test('devuelve "Aprobado" para estudiante con garante y un score de 650 o superior', () => {
     const solicitud = {
       score: 650,

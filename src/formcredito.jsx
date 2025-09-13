@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Form, Row, Col, Alert } from 'react-bootstrap';
 import './Form.css';
-import { evaluar } from './domain/evaluar';
+import { evaluar } from './evaluar';
 
 const Formcredito = () => {
   const [score, setScore] = useState('');
@@ -46,7 +46,7 @@ const Formcredito = () => {
 
   return (
     <>
-      <h1 className="mb-4">Evaluación de Crédito</h1>
+      <h1 className="mb-4">Evaluación UnitTest JS</h1>
       <Form className="form-evaluar">
         <Row className="mb-3">
           <Col md={6}>
