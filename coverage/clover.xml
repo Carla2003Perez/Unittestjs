@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1757725431523" clover="3.2.0">
+  <project timestamp="1757725431524" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="30" coveredconditionals="30" methods="1" coveredmethods="1" elements="51" coveredelements="51" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
+    <file name="evaluarCredito.js" path="C:\Users\carla\Documents\Universidad\Decimo ciclo\Aseguramiento de la Calidad De Software\Unit test\unittest\src\domain\evaluarCredito.js">
+      <metrics statements="20" coveredstatements="20" conditionals="30" coveredconditionals="30" methods="1" coveredmethods="1"/>
+      <line num="4" count="24" type="cond" truecount="4" falsecount="0"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="8" count="22" type="cond" truecount="4" falsecount="0"/>
+      <line num="9" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="14" count="20" type="cond" truecount="4" falsecount="0"/>
+      <line num="16" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="21" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="22" count="3" type="stmt"/>
+      <line num="24" count="2" type="stmt"/>
+      <line num="26" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="29" count="3" type="stmt"/>
+      <line num="31" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="37" count="8" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+    </file>
+    <file name="formcredito.js" path="C:\Users\carla\Documents\Universidad\Decimo ciclo\Aseguramiento de la Calidad De Software\Unit test\unittest\src\domain\formcredito.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+  </project>
+</coverage>
