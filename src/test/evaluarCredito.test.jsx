@@ -121,7 +121,7 @@ describe('evaluarCredito', () => {
     expect(evaluarCredito(solicitud)).toBe('No aprobado');
   });
 
-  // Pruebas para condiciones específicas de perfil: empleado
+
   test('devuelve "Aprobado" para empleado con 6 o más meses de antigüedad y score de 650 o más', () => {
     const solicitud = {
       score: 650,
@@ -161,7 +161,7 @@ describe('evaluarCredito', () => {
     expect(evaluarCredito(solicitud)).toBe('No aprobado');
   });
 
-  // Pruebas para condiciones específicas de perfil: independiente
+
   test('devuelve "Aprobado" para independiente con 12 o más meses de antigüedad y score de 670 o más', () => {
     const solicitud = {
       score: 670,
@@ -201,7 +201,7 @@ describe('evaluarCredito', () => {
     expect(evaluarCredito(solicitud)).toBe('No aprobado');
   });
 
-  // Pruebas para condiciones específicas de perfil: retirado
+ 
   test('devuelve "Aprobado" para retirado con score de 640 o superior', () => {
     const solicitud = {
       score: 640,
@@ -228,7 +228,7 @@ describe('evaluarCredito', () => {
     expect(evaluarCredito(solicitud)).toBe('No aprobado');
   });
 
-  // Casos de borde
+  
   test('devuelve "No aprobado" justo en el límite de score de 600', () => {
     const solicitud = {
       score: 600,

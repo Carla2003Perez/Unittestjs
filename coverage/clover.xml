@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1757730103482" clover="3.2.0">
-  <project timestamp="1757730103482" name="All files">
-    <metrics statements="20" coveredstatements="20" conditionals="30" coveredconditionals="30" methods="1" coveredmethods="1" elements="51" coveredelements="51" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+<coverage generated="1757737376415" clover="3.2.0">
+  <project timestamp="1757737376415" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="30" coveredconditionals="30" methods="1" coveredmethods="1" elements="51" coveredelements="51" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
+    <file name="evaluar.jsx" path="C:\Users\carla\Documents\Universidad\Decimo ciclo\Aseguramiento de la Calidad De Software\Unit test\unittest\src\domain\evaluar.jsx">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
     <file name="evaluarCredito.jsx" path="C:\Users\carla\Documents\Universidad\Decimo ciclo\Aseguramiento de la Calidad De Software\Unit test\unittest\src\domain\evaluarCredito.jsx">
       <metrics statements="20" coveredstatements="20" conditionals="30" coveredconditionals="30" methods="1" coveredmethods="1"/>
       <line num="2" count="24" type="cond" truecount="4" falsecount="0"/>

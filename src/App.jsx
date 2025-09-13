@@ -1,4 +1,3 @@
-import React from 'react';
 import Formcredito from './formcredito';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

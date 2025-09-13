@@ -1,0 +1,106 @@
+/* Contenedor principal centrado */
+body, html {
+  height: 100%;
+  margin: 0;
+  background: #137e80; /* fondo general oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Contenedor del formulario */
+.form-evaluar {
+  width: 100%;
+  max-width: 550px;
+  padding: 30px 25px;
+  background: linear-gradient(145deg, #25eef1, #1cbec0);
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+/* Títulos y labels */
+.form-evaluar label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #000000;
+}
+
+/* Inputs y selects */
+.input-form {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-form:focus {
+  border-color: #ff6f61;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255,111,97,0.5);
+}
+
+/* Checkboxes */
+.checkbox-form {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+
+.checkbox-group .checkbox-form {
+  margin-bottom: 0; 
+  display: flex;
+  align-items: center;
+}
+
+/* Botones */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-reset, .btn-submit {
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-reset {
+  background-color: #ff6f61;
+  color: white;
+  box-shadow: 0 5px 15px rgba(255,111,97,0.4);
+}
+
+.btn-reset:hover {
+  background-color: #e55b4d;
+  transform: translateY(-2px);
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0,123,255,0.4);
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
