@@ -1,7 +1,7 @@
 const { evaluarCredito } = require('../domain/evaluarCredito');
 
 describe('evaluarCredito', () => {
-  // Pruebas para condiciones de rechazo inmediato
+  
   test('devuelve "No aprobado" si existe mora activa', () => {
     const solicitud = {
       score: 780,

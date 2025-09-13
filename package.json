@@ -11,24 +11,35 @@
     "test": "jest",
     "test:cov": "jest --coverage"
   },
-  "jest": { 
-"collectCoverage": true, 
-"collectCoverageFrom": ["src/domain/**/*.*"], 
-"coverageThreshold": { 
-"global": { "branches": 28, "functions": 31, "lines": 100, 
-"statements": 100 } 
-} 
-}, 
-
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/domain/**/*.*"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 28,
+        "functions": 31,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "react": "^19.1.1",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
     "@eslint/js": "^9.33.0",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
+    "babel-jest": "^30.1.2",
     "eslint": "^9.33.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",

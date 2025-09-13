@@ -1,5 +1,3 @@
-// archivo: evaluarCredito.js
-
 function evaluarCredito(solicitud) {
   if (solicitud.moraActiva || solicitud.score < 600) {
     return 'No aprobado';
